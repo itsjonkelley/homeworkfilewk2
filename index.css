@@ -26,4 +26,44 @@ footer {
 body {
     background-color: lightgray;
 }
-.navbar
+.indexPic {
+    height: 150px;
+    width: 150px;
+}
+.wordGuess {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid red;
+}
+.rpgGame {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    
+}
+.triviaGame {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+}
+.infoWidget {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+}
+.rockPaperScissors {
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+}
+.label {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0,0,0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
