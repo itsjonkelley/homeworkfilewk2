@@ -1,6 +1,29 @@
 .navbar-brand {
-    background-color: aquamarine;
-}
+    background-color: lightseagreen;
+    font-weight: bolder;
+    color: white;
+    }
 div .navbar-nav {
     padding-right: 0%;
 }
+footer {
+    border-top: solid lightseagreen 3px;
+    text-align: center;
+    background-color: rgb(57, 66, 66);
+    color: grey;
+}
+.navbar-brand {
+    border: none;
+    outline: none;
+    padding: none;
+    text-emphasis: none;
+}
+.container {
+    border: 2px red solid;
+    background-color: white;
+    padding: 0%;
+}
+body {
+    background-color: lightgray;
+}
+.navbar
