@@ -12,6 +12,9 @@ footer {
     background-color: rgb(57, 66, 66);
     color: grey;
 }
+#footerdecor {
+    text-align: center;
+}
 .navbar-brand {
     border: none;
     outline: none;
@@ -21,7 +24,7 @@ footer {
 .container {
     border: 2px red solid;
     background-color: white;
-    padding: 0%;
+    padding: 20px 10px 10px 20px;
 }
 body {
     background-color: lightgray;
@@ -33,29 +36,30 @@ body {
 .wordGuess {
     height: 300px;
     width: 300px;
-    padding: 20px;
+    padding: 5%;
+    text-align: center;
     border: 1px solid red;
 }
 .rpgGame {
     height: 300px;
     width: 300px;
-    padding: 20px;
+    padding: 5%;
     
 }
 .triviaGame {
     height: 300px;
     width: 300px;
-    padding: 20px;
+    padding: 5%;
 }
 .infoWidget {
     height: 300px;
     width: 300px;
-    padding: 20px;
+    padding: 5%;
 }
 .rockPaperScissors {
     height: 300px;
     width: 300px;
-    padding: 20px;
+    padding: 5%;
 }
 .label {
     position: absolute;
@@ -63,7 +67,34 @@ body {
     background: rgb(0,0,0);
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
-    width: 100%;
+    width: 90%;
     padding: 20px;
     text-align: center;
+}
+#test {
+    float: left;
+    border: solid green 1px;
+    margin: 20px 10px 10px 20px;
+    height: 250px;
+    width: 250px;
+    padding: 5%;
+}
+.sectionHeader {
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    color: lightseagreen;
+    border-bottom: lightslategrey 1px solid;
+
+}
+.content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#portfolioTop {
+    border-right: lightslategrey 1px solid;
+    border-left: lightslategray 1px solid;
+}
+#topGroup {
+    padding-left: 0%;
 }
