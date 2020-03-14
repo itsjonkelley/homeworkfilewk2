@@ -1,20 +1,39 @@
 .navbar-brand {
     background-color: lightseagreen;
     font-weight: bolder;
-    color: white;
+    color: white !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
     }
-div .navbar-nav {
+.navbar {
+    padding-left: 10%;
+    padding-bottom: 0%;
+    padding-top: 0%;
     padding-right: 0%;
+    margin: 0%;
+    text-align: center;
+}
+.stick-top {
+    height: 70px !important;
+}
+#topLeft {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 50px;
+    text-align: center !important;
+}
+div .navbar-nav {
+    float: right !important;
 }
 footer {
     border-top: solid lightseagreen 3px;
     text-align: center;
     background-color: rgb(57, 66, 66);
     color: grey;
+    height: 30px !important;
+    position: absolute;
+    bottom: 0%;
 }
-#footerdecor {
-    text-align: center;
-}
+
 .navbar-brand {
     border: none;
     outline: none;
@@ -22,43 +41,46 @@ footer {
     text-emphasis: none;
 }
 .container {
-    border: 2px red solid;
     background-color: white;
     padding: 20px 10px 10px 20px;
+    width: 50%;
+    height: 80%;
+    align-items: center;
+    float: left;
+    margin-left: 10%;
+    margin-top: 2%;
 }
 body {
     background-color: lightgray;
 }
 .indexPic {
     height: 150px;
-    width: 150px;
+    width: auto;
+    float: left;
+    margin: 10px;
 }
 .wordGuess {
-    height: 300px;
-    width: 300px;
-    padding: 5%;
+    padding: 0%;
     text-align: center;
     border: 1px solid red;
+    align-items: center !important;
+    float: inherit;
+    max-width: inherit;
+    margin: 0%;
+}
+.row{
+    margin-right: 0%;
 }
 .rpgGame {
-    height: 300px;
-    width: 300px;
-    padding: 5%;
-    
+    padding: 5%;  
 }
 .triviaGame {
-    height: 300px;
-    width: 300px;
     padding: 5%;
 }
 .infoWidget {
-    height: 300px;
-    width: 300px;
     padding: 5%;
 }
 .rockPaperScissors {
-    height: 300px;
-    width: 300px;
     padding: 5%;
 }
 .label {
@@ -68,16 +90,18 @@ body {
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 90%;
-    padding: 20px;
+    padding: 0px;
     text-align: center;
+    margin-bottom: 10px;
 }
 #test {
     float: left;
     border: solid green 1px;
     margin: 20px 10px 10px 20px;
-    height: 250px;
-    width: 250px;
-    padding: 5%;
+    height: 150px;
+    width: 150px;
+    padding: 0%;
+    align-items: center !important;
 }
 .sectionHeader {
     font-weight: 600;
@@ -85,7 +109,6 @@ body {
     font-size: x-large;
     color: lightseagreen;
     border-bottom: lightslategrey 1px solid;
-
 }
 .content {
     padding-top: 20px;
@@ -96,5 +119,37 @@ body {
     border-left: lightslategray 1px solid;
 }
 #topGroup {
-    padding-left: 0%;
+    /* padding-left: 0%; */
+    /* width 100%; */
+    text-align: right;
+    float: right;
+    color: green !important;
+    text-size-adjust: ;
+}
+#copyrightBottom {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    float: center;
+}
+body {
+    margin-bottom: 100px;
+}
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#picturelButton {
+    text-align: center;
+}
+@media only screen and (max-width: 767px) {
+    .contentParagraph {
+        float: right;
+    }
+    .indexPic {
+        height: 300px;
+    }
+    .container {
+        max-width: 399px;
+    }
 }
